@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Yeoman generator for simple web templates.",
   "keywords": [
     "yeoman-generator"
@@ -29,10 +29,5 @@
   "engines": {
     "node": ">=0.8.0",
     "npm": ">=1.2.10"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  }
 }
