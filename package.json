@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Yeoman generator for simple web templates.",
   "keywords": [
     "yeoman-generator"
@@ -19,9 +19,6 @@
   },
   "dependencies": {
     "yeoman-generator": "~0.14.0"
-  },
-  "devDependencies": {
-    "mocha": "~1.14.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
