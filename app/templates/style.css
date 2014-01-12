@@ -1,0 +1,53 @@
+/*
+======================================================
+Grid
+======================================================
+ */
+/* line 9, ../scss/style.scss */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 14, ../scss/style.scss */
+h1 {
+  padding: 50px;
+}
+
+/* line 18, ../scss/style.scss */
+h4 {
+  margin-top: 25px;
+}
+
+/* line 21, ../scss/style.scss */
+.row {
+  margin-bottom: 20px;
+}
+
+/* line 24, ../scss/style.scss */
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* line 28, ../scss/style.scss */
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+/* line 37, ../scss/style.scss */
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*
+======================================================
+Styles
+======================================================
+ */

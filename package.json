@@ -1,0 +1,38 @@
+{
+  "name": "generator-simple-template",
+  "version": "0.0.0",
+  "description": "A Yeoman generator for simple web templates.",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/cameronjroe/generator-simple-template",
+  "bugs": "https://github.com/cameronjroe/generator-simple-template/issues",
+  "author": {
+    "name": "Cameron J Roe",
+    "email": "",
+    "url": "https://github.com/cameronjroe"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cameronjroe/generator-simple-template.git"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
