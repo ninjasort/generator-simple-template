@@ -3,9 +3,10 @@
 A [Yeoman](http://yeoman.io) generator for simple web templates.
 
 ### Features
-	- jQuery
-	- Compass
-	- Grunt w/ livereload
+
+- jQuery
+- Compass
+- Grunt w/ livereload
 
 ### Get started
 
