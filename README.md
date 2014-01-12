@@ -10,13 +10,11 @@ A [Yeoman](http://yeoman.io) generator for simple web templates.
 
 ### Get started
 
-This project has not been published to npm yet. You may clone it and store it in ~/.generators
-
 ```
 $ npm install -g yo
 ```
 ```
-$ git clone https://github.com/cameronjroe/generator-simple-template.git
+$ npm install -g generator-simple-template
 ```
 Start the scaffold and give it a name
 ```
