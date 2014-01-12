@@ -25,6 +25,6 @@ Run grunt and start connect server and compass watch
 $ grunt
 ```
 
-## Thanks!
+### Thanks!
 
 [@cameronjroe](http://twitter.com/cameronjroe)
