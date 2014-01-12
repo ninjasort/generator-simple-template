@@ -19,9 +19,6 @@ util.inherits(SimpleTemplateGenerator, yeoman.generators.Base);
 SimpleTemplateGenerator.prototype.askFor = function askFor() {
   var cb = this.async();
 
-  // have Yeoman greet the user.
-  console.log(this.yeoman);
-
   var prompts = [
   {
     type: 'input',
@@ -50,7 +47,7 @@ SimpleTemplateGenerator.prototype.app = function app() {
   this.copy('main.js', 'js/main.js');
 
   this.copy('_package.json', 'package.json');
-  this.copy('.gitignore', '.gitignore');
+  this.copy('_gitignore', '.gitignore');
   this.copy('_bower.json', 'bower.json');
   this.template('Gruntfile.js', 'Gruntfile.js');
   this.template('index.html', 'index.html');
