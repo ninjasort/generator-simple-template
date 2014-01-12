@@ -3,7 +3,6 @@
 A [Yeoman](http://yeoman.io) generator for simple web templates.
 
 ### Features
-
 	- jQuery
 	- Compass
 	- Grunt w/ livereload
@@ -18,11 +17,13 @@ $ npm install -g yo
 ```
 $ git clone https://github.com/cameronjroe/generator-simple-template.git
 ```
+Start the scaffold and give it a name
 ```
-$ yo simple-template // start the scaffold and give it a name
+$ yo simple-template
 ```
+Run grunt and start connect server and compass watch
 ```
-$ grunt // run grunt to start server and compass
+$ grunt
 ```
 
 ## Thanks!
