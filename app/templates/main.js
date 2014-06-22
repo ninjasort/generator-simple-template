@@ -1,7 +1,10 @@
 (function($){
-	$(document).ready(function(){
 
-		
+    /**
+     * <%= templateName %>
+     */
+    function <%= _.camelize(templateName) %>() {
 
-	});
+    }
+
 })(jQuery);

@@ -44,7 +44,7 @@ SimpleTemplateGenerator.prototype.app = function app() {
   this.copy('config.rb', 'config.rb');
   this.copy('style.scss', 'scss/style.scss');
   this.copy('style.css', 'css/style.css');
-  this.copy('main.js', 'js/main.js');
+  this.template('main.js', 'js/main.js');
 
   this.copy('_package.json', 'package.json');
   this.copy('_gitignore', '.gitignore');
