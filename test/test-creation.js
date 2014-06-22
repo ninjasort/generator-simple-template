@@ -20,13 +20,22 @@ describe('simple-template generator', function () {
 
     it('creates expected files', function (done) {
         var expected = [
-
+            'index.html',
+            'css/style.css',
+            'scss/style.scss',
+            'js/main.js',
+            'package.json',
+            'bower.json',
+            '.gitignore',
+            'Gruntfile.js',
         ];
 
         helpers.mockPrompt(this.app, {
-            'someOption': true
+            'templateName': true
         });
+
         this.app.options['skip-install'] = true;
+        
         this.app.run({}, function () {
             helpers.assertFiles(expected);
             done();
