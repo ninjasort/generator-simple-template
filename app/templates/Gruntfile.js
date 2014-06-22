@@ -1,12 +1,15 @@
 module.exports = function(grunt) {
 
-  // Project configuration.
   grunt.initConfig({
 
     compass: {
       dev: {
         options: {
-          config: 'config.rb'
+          outputStyle: 'compressed',
+          sassDir: 'scss',
+          cssDir: 'css',
+          imagesDir: 'images',
+          javascriptsDir: 'js'
         }
       }
     },

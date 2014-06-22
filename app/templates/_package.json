@@ -1,13 +1,12 @@
 {
-  "name": "",
-  "version": "0.0.1",
+  "name": "<%= _.slugify(templateName) %>",
+  "version": "0.1.0",
   "description": "A simple web template.",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "grunt"
   },
   "author": "Cameron J Roe",
-  "license": "BSD-2-Clause",
   "devDependencies": {
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-copy": "~0.4.1",

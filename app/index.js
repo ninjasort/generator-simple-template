@@ -41,14 +41,13 @@ SimpleTemplateGenerator.prototype.app = function app() {
   this.mkdir('js');
   this.mkdir('scss');
 
-  this.copy('config.rb', 'config.rb');
   this.copy('style.scss', 'scss/style.scss');
   this.copy('style.css', 'css/style.css');
   this.template('main.js', 'js/main.js');
 
-  this.copy('_package.json', 'package.json');
+  this.template('_package.json', 'package.json');
+  this.template('_bower.json', 'bower.json');
   this.copy('_gitignore', '.gitignore');
-  this.copy('_bower.json', 'bower.json');
   this.template('Gruntfile.js', 'Gruntfile.js');
   this.template('index.html', 'index.html');
 
