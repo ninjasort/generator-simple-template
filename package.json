@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-template",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "A Yeoman generator for simple web templates.",
   "keywords": [
     "yeoman-generator"
