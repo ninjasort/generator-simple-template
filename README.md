@@ -16,13 +16,16 @@ $ npm install -g yo
 ```
 $ npm install -g generator-simple-template
 ```
-Start the scaffold and give it a name
+Make a project folder, start the scaffold and give it a name.
+```
+$ mkdir simple-project && cd $_
+```
 ```
 $ yo simple-template
 ```
-Run grunt and start connect server and compass watch
+Run the dev environment
 ```
-$ grunt
+$ npm start
 ```
 
 ### Thanks!
