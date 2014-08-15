@@ -25,11 +25,18 @@ SimpleTemplateGenerator.prototype.askFor = function askFor() {
     name: 'templateName',
     message: 'Please enter a name for your project.',
     default: 'Simple Project'
+  },
+  {
+    type: 'confirm',
+    name: 'bootstrap',
+    message: 'Would you like to include bootstrap?',
+    default: true
   }
   ];
 
   this.prompt(prompts, function (props) {
     this.templateName = props.templateName;
+    this.bootstrap = props.bootstrap;
 
     cb();
   }.bind(this));
@@ -47,6 +54,8 @@ SimpleTemplateGenerator.prototype.app = function app() {
 
   this.template('_package.json', 'package.json');
   this.template('_bower.json', 'bower.json');
+  this.template('_bowerrc', '.bowerrc');
+  this.directory('config', 'config');
   this.copy('_gitignore', '.gitignore');
   this.template('Gruntfile.js', 'Gruntfile.js');
   this.template('index.html', 'index.html');

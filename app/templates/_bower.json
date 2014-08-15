@@ -1,6 +1,12 @@
 {
-  "name": "<%= _.slugify(templateName) %>",
-  "version": "0.1.0",
-  "dependencies": {}
+    "name": "<%= _.slugify(templateName) %>",
+    "version": "0.0.1",
+    <% if (bootstrap) { %>
+    "dependencies": {
+        "bootstrap-sass": "~3.0.2"
+    }
+    <% } else { %>
+    "dependencies": {}
+    <% } %>
 }
 
