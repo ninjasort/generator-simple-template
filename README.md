@@ -5,7 +5,7 @@ A [Yeoman](http://yeoman.io) generator for simple web templates.
 ### Features
 
 - jQuery
-- Compass
+- Bourbon
 - Grunt w/ livereload
 
 ### Get started
