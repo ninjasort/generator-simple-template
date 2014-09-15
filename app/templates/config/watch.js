@@ -5,7 +5,7 @@ module.exports = {
   js: {
     files: ['js/**/*.js']
   },
-  compass: {
+  sass: {
     files: ['scss/{,*/}*.scss'],
     tasks: ['sass:server']
   },
